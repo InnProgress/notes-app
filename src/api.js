@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "https://notes-rest-api-node.herokuapp.com/";
+const url = "https://notes-rest-api-node.herokuapp.com";
 
 export const getNotes = () => {
     return axios.get(url)

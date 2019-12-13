@@ -29,7 +29,7 @@ function* updateNote({ payload }) {
 }
 
 function* watchRemoveNote() {
-    yield takeEvery('REMOVE_NOTE_ASYNC', removeNote)
+    yield takeLatest('REMOVE_NOTE_ASYNC', removeNote);
 }
 function* removeNote({ id }) {
     yield api.removeNote(id);
