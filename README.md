@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# DEMO: https://innprogress.github.io/notes-app/
+
 ## Stack used
 
 - React.js
