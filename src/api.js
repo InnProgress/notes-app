@@ -1,21 +1,23 @@
 import axios from 'axios';
 
+const url = "https://notes-rest-api-node.herokuapp.com/";
+
 export const getNotes = () => {
-    return axios.get('http://localhost:4000/')
+    return axios.get(url)
         .then(res => res.data);
 };
 
 export const insertNote = payload => {
-    return axios.post('http://localhost:4000', payload)
+    return axios.post(url, payload)
         .then(res => res.data);
 }
 
 export const updateNote = payload => {
-    return axios.patch(`http://localhost:4000/note/${payload._id}`, payload)
+    return axios.patch(`${url}/note/${payload._id}`, payload)
         .then(res => res.data);
 }
 
 export const removeNote = id => {
-    return axios.delete(`http://localhost:4000/note/${id}`)
+    return axios.delete(`${url}/note/${id}`)
         .then(res => res.data);
 }
