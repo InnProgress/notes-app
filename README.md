@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Stack used
+
+- React.js
+- Redux (react-redux)
+- Redux-Saga
+- Axios
+- Styled-components
+- React-notifications
+- Express.js and MongoDB (mongoose) on the back-end (https://github.com/InnProgress/crud-rest-api)
+
 ## Available Scripts
 
 In the project directory, you can run:
