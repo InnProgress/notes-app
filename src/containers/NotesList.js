@@ -34,7 +34,7 @@ const NotesList = props => {
         <Menu>
           <ListContainer>
             {props.notes.map((note, i) => 
-              <StyledButton onClick={() => props.selectNote(note._id)} active={note._id === props.activeNote} key={i}>{note.title}</StyledButton>
+              <StyledButton onClick={() => props.selectNote(note._id)} active={note._id === props.activeNote} key={i}>{note.title.length > 20 ? note.title.slice(0, 20) + '...' : note.title}</StyledButton>
             )}
           </ListContainer>
 
