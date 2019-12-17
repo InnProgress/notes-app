@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81f45868dac76816f26fd3d33227655b",
+    "revision": "f60b007ec89b50951bb8515262b6bc42",
     "url": "/notes-app/index.html"
   },
   {
-    "revision": "e7473aabc051ac04935f",
+    "revision": "9b3594e82407047f16da",
     "url": "/notes-app/static/css/2.c205e385.chunk.css"
   },
   {
-    "revision": "3edc6713c5cda73d5136",
+    "revision": "9a3d58a95b56ced94a2b",
     "url": "/notes-app/static/css/main.349b0c09.chunk.css"
   },
   {
-    "revision": "e7473aabc051ac04935f",
-    "url": "/notes-app/static/js/2.4a22d218.chunk.js"
+    "revision": "9b3594e82407047f16da",
+    "url": "/notes-app/static/js/2.5a8ad990.chunk.js"
   },
   {
     "revision": "218bf88f19342317257889081e0c0a53",
-    "url": "/notes-app/static/js/2.4a22d218.chunk.js.LICENSE"
+    "url": "/notes-app/static/js/2.5a8ad990.chunk.js.LICENSE"
   },
   {
-    "revision": "3edc6713c5cda73d5136",
-    "url": "/notes-app/static/js/main.bd67d442.chunk.js"
+    "revision": "9a3d58a95b56ced94a2b",
+    "url": "/notes-app/static/js/main.91819b3c.chunk.js"
   },
   {
     "revision": "3c7cb077c048240f0124",
