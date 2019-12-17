@@ -9,6 +9,7 @@ const initialState = {
 const notesCrudReducer = (state = initialState.notes, action) => {
     switch(action.type) {
         case 'LOAD_NOTES': {
+            
             return action.notes;
         }
         case 'ADD_NOTE': {

@@ -9,6 +9,8 @@ import {
 import Header from './containers/Header';
 import MainGrid from './containers/MainGrid';
 
+import Loader from './styled_components';
+
 const App = () => {
   return (
     <div>
@@ -16,6 +18,8 @@ const App = () => {
       <MainGrid />
 
       <NotificationContainer/>
+
+      <Loader />
     </div>
   );
 }
