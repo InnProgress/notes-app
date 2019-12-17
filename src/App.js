@@ -6,12 +6,15 @@ import {
   NotificationContainer
 } from 'react-notifications';
 
+import { connect } from 'react-redux';
+
 import Header from './containers/Header';
 import MainGrid from './containers/MainGrid';
 
-import Loader from './styled_components';
+import Loader from './styled_components/Loader';
+import { mapStateToProps } from './store';
 
-const App = () => {
+const App = ({ activeNote }) => {
   return (
     <div>
       <Header />
@@ -19,9 +22,9 @@ const App = () => {
 
       <NotificationContainer/>
 
-      <Loader />
+      {activeNote === false && <Loader />}
     </div>
   );
 }
 
-export default App;
+export default connect(mapStateToProps)(App);

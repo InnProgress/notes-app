@@ -3,7 +3,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import { mapStateToProps } from '../store';
-import Form from '../components/Form';
+import Form from './Form';
 
 const MainView = ({ activeNote }) => {
     return (

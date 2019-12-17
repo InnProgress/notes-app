@@ -9,6 +9,10 @@ const Loader = styled.div`
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
     @keyframes spin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
